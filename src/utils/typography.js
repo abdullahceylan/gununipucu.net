@@ -2,8 +2,17 @@ import Typography from 'typography'
 import Wordpress2016 from 'typography-theme-wordpress-2016'
 
 Wordpress2016.overrideThemeStyles = () => ({
+  h1: {
+    fontFamily: "'Merriweather','Georgia',serif",
+  },
+  a: {
+    color: '#d23669',
+  },
   'a.gatsby-resp-image-link': {
     boxShadow: 'none',
+  },
+  'p code': {
+    fontSize: '1.1rem',
   },
 })
 

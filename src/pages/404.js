@@ -5,8 +5,11 @@ class NotFoundPage extends React.Component {
   render() {
     return (
       <Layout location={this.props.location}>
-        <h1>Not Found</h1>
-        <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+        <h1>Hmm...</h1>
+        <p>
+          Bu konuyla ilgili henüz bir not yazmadım. Bana bunun için yardım etmek
+          ister misin?
+        </p>
       </Layout>
     )
   }

@@ -34,7 +34,7 @@ class Layout extends React.Component {
       header = (
         <h3
           style={{
-            fontFamily: 'Montserrat, sans-serif',
+            fontFamily: "'Merriweather','Georgia',serif",
             marginTop: 0,
             marginBottom: rhythm(-1),
           }}
